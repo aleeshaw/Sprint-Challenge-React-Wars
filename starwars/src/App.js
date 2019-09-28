@@ -7,6 +7,7 @@ const AppDiv = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 10%;
+  margin-bottom: 5%;
 `;
 
 const App = () => {

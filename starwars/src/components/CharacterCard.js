@@ -6,11 +6,13 @@ const CardDiv = styled.div`
   width: 20%;
   height: 30%;
   margin: 10px;
+  border-radius: 10px;
 `;
 
 const H1 = styled.h1`
   font-size: 1.5rem;
   background-color: brown;
+  color: tan;
 `;
 
 const CharInfoDiv = styled.div`
