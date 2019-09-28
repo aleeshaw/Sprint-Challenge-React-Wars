@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import CharacterCard from "./CharacterCard.js";
+import styled from 'styled-components';
+
+const ListDiv = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
 
 const CharacterList = () => {
   const [characters, setCharacter] = useState([]);
@@ -19,7 +25,7 @@ const CharacterList = () => {
   }, []);
 
   return (
-    <div>
+    <ListDiv>
       {characters.map(char => {
         return (
           <CharacterCard
@@ -31,7 +37,7 @@ const CharacterList = () => {
             />
         );
       })}
-    </div>
+    </ListDiv>
   );
 };
 
