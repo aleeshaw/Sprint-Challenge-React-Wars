@@ -7,9 +7,10 @@ const CharacterCard = (props) => {
       <h1 className="char-name">{props.name}</h1>
 
       <div className="char-info">
+        <p>Gender: {props.gender}</p>
         <p>DOB: {props.birth_year}</p>
-        <p>Home World: {props.homeworld}</p>
-        <p>Film Appearances: {props.films}</p>
+        <p>Height: {props.height}cm</p>
+        <p>Eye Color: {props.eye_color}</p>
       </div>
 
     </div>

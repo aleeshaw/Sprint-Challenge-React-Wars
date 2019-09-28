@@ -24,9 +24,10 @@ const CharacterList = () => {
         return (
           <CharacterCard
             name={char.name}
+            gender={char.gender}
             birth_year={char.birth_year}
-            homeworld={char.homeworld}
-            films={char.films}
+            height={char.height}
+            eye_color={char.eye_color}
             />
         );
       })}
